@@ -22,6 +22,7 @@ function prependKitten(name) {
   newKittens.unshift(name)
   return newKittens
 }
+<<<<<<< HEAD
 function removeLastKitten() {
   var newKittens = [...kittens]
   newKittens.pop()
@@ -30,5 +31,10 @@ function removeLastKitten() {
 function removeFirstKitten() {
   var newKittens = [...kittens]
   newKittens.shift()
+=======
+function removeLastKitten(){
+  var newKittens = [...kittens]
+  newkittens.pop()
+>>>>>>> 22dfb7edbbb73b14cd91cd9cc125933e28055250
   return newKittens
 }
